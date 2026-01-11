@@ -677,9 +677,6 @@ All JavaScript fuctions Start
 			1440: {
 			  slidesPerView: 3,
 			},
-			1600: {
-			  slidesPerView: 4,
-			},
 		  },
 		});
 	}
