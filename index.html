@@ -44,6 +44,38 @@
   <!-- Lc light box popup -->
   <link rel="stylesheet" href="css/bootstrap-slider.min.css" />
   <!-- Price Range Slider -->
+
+  <style>
+    /* Mobile Specific Adjustments */
+    @media (max-width: 991px) {
+
+      /* Ensure the container takes up the sidebar space */
+      .header-nav.navbar-collapse {
+        background: #fff;
+        /* Match your white background */
+        padding-top: 20px;
+      }
+
+      /* Style the list items to align like your screenshot */
+      .navbar-nav {
+        margin-top: 20px;
+        padding-left: 20px;
+      }
+
+      .navbar-nav li {
+        margin-bottom: 15px;
+      }
+
+      .navbar-nav li a {
+        font-size: 18px;
+        color: #005c5c;
+        /* Match that dark teal color from your image */
+        font-weight: 500;
+        text-decoration: none;
+      }
+
+    }
+  </style>
 </head>
 
 <body>
@@ -81,7 +113,7 @@
 
         <div class="logo-header">
           <div class="logo-header-inner logo-header-one">
-            <a href="index-2.html">
+            <a href="index.html">
               <img src="images/logo-dark.png" alt="" />
             </a>
           </div>
@@ -89,25 +121,26 @@
 
         <!-- MAIN Vav -->
         <div class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-end">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="javascript:;">Home</a>
+          <ul class="nav navbar-nav d-flex flex-column h-100">
 
-            </li>
-            <li><a href="about-1.html">About</a></li>
+            <div class="mobile-nav-header d-flex d-lg-none align-items-center">
+              <div class="logo-nav-mobile">
+                <a href="index.html">
+                  <img src="images/logo-dark.png" alt="Ceylon Yala Safari" style="max-width: 150px;">
+                </a>
+              </div>
+            </div>
 
-            <li>
-              <a href="javascript:;">Destinations</a>
+            <hr class="w-100 d-flex d-lg-none">
 
-            </li>
+            <div class="menu-links-wrapper d-flex flex-column justify-content-center flex-grow-1">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-1.html">About</a></li>
+              <li><a href="javascript:;">Destinations</a></li>
+              <li><a href="javascript:;">Tours</a></li>
+              <li><a href="javascript:;">Contact</a></li>
+            </div>
 
-            <li>
-              <a href="javascript:;">Tours</a>
-
-            </li>
-
-
-            <li><a href="javascript:;">Contact</a></li>
           </ul>
         </div>
 
@@ -2326,7 +2359,8 @@
         <div class="footer-bottom">
           <div class="container">
             <div class="copyrights-text">
-              © 2025 All Rights Reserved | Ceylon Yala Safari | Designed and Developed by Silicon Radon Networks (Pvt) Ltd
+              © 2025 All Rights Reserved | Ceylon Yala Safari | Designed and Developed by Silicon Radon Networks (Pvt)
+              Ltd
             </div>
           </div>
         </div>
