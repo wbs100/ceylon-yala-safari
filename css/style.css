@@ -5648,8 +5648,10 @@ header-style-2.sticky-header.is-fixed {
 
 /** - Scroll top btn css */
 button.scroltop {
-  height: 40px;
-  width: 40px;
+  /* height: 40px;
+  width: 40px; */
+   height: 50px;
+  width: 50px;
   background: none;
   border: none;
   position: fixed;
