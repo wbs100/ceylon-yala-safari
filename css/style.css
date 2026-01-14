@@ -12904,14 +12904,16 @@ select {
   z-index: 5;
 }
 .trv-for-summer-section .media-left-ballon {
-  width: 68px;
+  /* width: 68px; */
+   width: 98px;
   position: absolute;
   left: 0px;
   bottom: 165px;
   animation: slide-top2 20s linear infinite alternate-reverse;
 }
 .trv-for-summer-section .media-right-ballon {
-  width: 128px;
+  /* width: 128px; */
+   width: 68px;
   position: absolute;
   right: 60px;
   top: 10px;
